@@ -1,0 +1,67 @@
+ 1001  cd OS2-zastavice-cli-naredbi
+ 1002  mkdir vjezba_2/data -v
+ 1003  mkdir vjezba_2/data -p -v
+ 1004  mkdir -p vjezba_2/data vjezba_2/backup
+ 1005  touch script.js style.css .env
+ 1006  cd vjezba_2/data && touch script.js style.css .env
+ 1007  cd ../..
+ 1008  echo "console.log(\"Hello, World)" > vjezba_2/data/script.js
+ 1009  echo "console.log('Hello, World!')" > vjezba_2/data/script.js
+ 1010  echo "body { background-color: #f0f0f0; }" > vjezba_2/data/style.css
+ 1011  echo "VJEZBE=OS" > vjezba_2/data/.env
+ 1012  cat vjezba_2/data/script.js
+ 1013  cat vjezba_2/data/style.css
+ 1014  cat vjezba_2/data/.env
+ 1015  cp -iv -r vjezba_2/data/* vjezba_2/backup/
+ 1016  cp -aiv -r vjezba_2/data/* vjezba_2/backup/
+ 1017  gi thistory
+ 1018  git history
+ 1019  git log --oneline
+ 1020  history
+ 1021  history 20
+ 1022  history 20
+ 1023  history 1001
+ 1024  history 1001 > vjezba_2_history.txt
+ 1025  cp -r vjezba_2/data/* vjezba_2/backup/
+ 1026  cp -r vjezba_2/data/ vjezba_2/backup/
+ 1027  cd vjezba_2/backup
+ 1028  cd ../data
+ 1029  ls -lSah ../backup
+ 1030  cd ../../..
+ 1031  ls
+ 1032  cd ..
+ 1033  ls
+ 1034  cd APOI
+ 1035  ls
+ 1036  cd ..
+ 1037  cd baze-podataka
+ 1038  ls
+ 1039  cd ../robotika
+ 1040  ls
+ 1041  cd ..
+ 1042  ls
+ 1043  cd forenzicko-racunovodstvo
+ 1044  ls
+ 1045  cd ..
+ 1046  ls
+ 1047  cd IT-management
+ 1048  ls
+ 1049  cd vjezbe
+ 1050  ls
+ 1051  cd ..
+ 1052  ls -lSah
+ 1053  ls -lSAh
+ 1054  tree -la
+ 1055  brew install tree
+ 1056  tree -la
+ 1057  history 1001 > vjezba_2_history.txt
+ 1058  history
+ 1059  history -57 > vjezba_2_history.txt
+ 1060  history -57
+ 1061  history -59
+ 1062  history -61 > vjezba_2_history.txt
+ 1063  history -62 > vjezba_2_history.txt
+ 1064  rm vjezba_2_history.txt
+ 1065  ls
+ 1066  cd ../OS-vjezbe/OS2-zastavice-cli-naredbi
+ 1067  ls
